@@ -7,11 +7,11 @@
 function enterClicked () {
   // this function gets user's first name and age and displays it back to user
 
-  // get first name from text field
-  let firstName = document.getElementById("first-name").value
-	// get age from text field and cast it to integer
-  let userAge = parseInt(document.getElementById("age-entered").value)
+  // get street number from textfield
+  let streetNumber = document.getElementById("street-number").value
+	// get street name from textfield
+  let streetName = document.getElementById("street-name").value
 
-  // display name and age back to user
-  document.getElementById('user-info').innerHTML = "Your first name is " + firstName + " and you are " + userAge + " years old."
+  // display street number and name back to user
+  document.getElementById('user-info').innerHTML = "Your street number is " + streetNumber + " and your street name is " + streetName + " , thanks for interacting! "
 }
